@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html><!--AllIn简易的Web后端  用于测试请求 -->
+    <head>
+        <meta charset="utf-8">
+        <title>Allin 简易 Web 后端</title>
+    </head>
+    <body>
+        {% if name %}  <h1>Hello {{ name }}!</h1>{% else %} <h1>Hello, World!</h1>{% endif %}
+
+        <a href="scheme://pushblindmall/jump?content={'jumpPage':'/pages/main'}">打开App</a>
+        <a href="scheme://pushblindmall/jump?content={'jumpPage':'/pages/chat?from=web'}">打开聊天</a>
+    </body>
+</html> 
